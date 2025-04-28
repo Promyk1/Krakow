@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradycje_krakowskie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    body{
+        background-color: rgb(255, 247, 202, 0.992);
+        
+    }
+    .naglowek{
+        display: inline-block;
+        color: goldenrod;
+        background-color: rgb(173,17,17);        
+        text-decoration: none;
+        top: 1px;
+        padding: 12px 32px;
+        left: 1250px;
+        border-radius: 5px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        text-transform: uppercase;
+        
+        width: 250px;
+        margin: 5px;
+        
+        
+        
+    } 
+    .powrot>a{
+        display: inline-block;
+        color: goldenrod;
+        background-color: rgb(173,17,17);        
+        text-decoration: none;
+        padding: 12px 32px;
+        margin: 5px;
+        border-radius: 5px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+    }
+    .powrot>a:hover{
+        display: inline-block;
+        color: rgb(173,17,17);
+        background-color: goldenrod;
+    }
+    #myCarousel{
+    
+    position: absolute;
+    top: 1px;
+    margin: 0;
+    padding: 0;
+    
+    left: 305px;
+    
+    
+    }
+    .carousel-caption{
+    font-size: 50px;
+    color: goldenrod;
+    background-color: rgba(173, 17, 17, 0.574);
+    border: 5px;
+    border-color: rgb(173,17,17);
+    border-style: double;
+    }
+
+</style>
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <h1 class="naglowek">Krakowskie tradycje</h1>
+        <div class="powrot">
+            <a href="krakow.html">Kraków</a>
+        </div>
+            <!------------------------------------------------------------------------>
+            <div class="container">
+       
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    
+
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+              
+                    <div class="item active">
+                      <img src="images/Wieża21.jpg" alt="" style="width:100%;">
+                      <div class="carousel-caption">
+                        <h1>Hejnał Mariacki</h1>
+                        <h2>Hejnał Mariacki jest niewątpliwie jedną z najbardziej znanych i ważnych tradycji Krakowa. Jest on grany codziennie o godzinie 12:00 z Wieży Mariackiej. Jest to związane z legendą o ataku Tatarów na Kraków, podczas którego trębacz na wieży chciał ostrzec mieszkańców przed niebezpieczeństwem jednak przypłacił za to życiem - tatarska strzała przeszyła mu gardło.</h2>
+                        
+                        </div>
+                    </div>
+              
+                    <div class="item">
+                      <img src="images/Szopka1.jpg" alt="" style="width:100%;">
+                      <div class="carousel-caption">
+                        <h1>Szopki krakowie</h1>
+                        <h2>Jest to trwająca od XIX wieku tradycja budowania w okresie Adwentu szopek bożonarodzeniowych. Co roku w pierwszy czwartek grudnia pod pomnikiem Mickiewicza na rynku odbywa się konkurs na najpiękniejszą szopkę.</h2>
+                        
+                      </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/dorożka1.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                          <h1>Dorożki</h1>
+                          <h2>Dorożki byly głównym środkiem transportu i służyły do wożenia ludzi, aż z czasem zostały wyparte przez tramwaje i autobusy. W Krakowie dalej można przejechać się taką dorożką. Jest to ciekawa atrakcja turystyczna.</h2>
+                          
+                        </div>
+                    </div>
+                                    
+                
+                
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+             </div>
+    </main>
+    <script src="script.JS"></script>
+</body>
+</html>
